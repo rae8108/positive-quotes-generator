@@ -37,7 +37,8 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: purple;
+  color: black;
+  /*  CHANGE COLOUR OF TEXT INSIDE BOX */
 }
 
 .submit-button {
