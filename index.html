@@ -15,19 +15,22 @@
       </header>
 
       <main>
-        <form id="positive-quotes-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of positivity"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="quote" id="quote"></div>
+        <div class="form-container">
+          <form id="positive-quotes-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of positivity"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Happiness, Loneliness or Anxiety</div>
+        </div>
+        <div class="quote hidden" id="quote"></div>
       </main>
 
       <footer>
